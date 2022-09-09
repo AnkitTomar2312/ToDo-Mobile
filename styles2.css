@@ -1,0 +1,146 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F7F7F7;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    width: 100%;
+    padding-left: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #FFFFFF;
+}
+
+.tasks{
+    color: #424242;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #FFFFFF;
+
+}
+
+.list{
+    color: #00A5EC;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #FFFFFF;
+
+}
+
+.function{
+    padding-left: 70%;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+}
+
+#back-circle{
+    margin-left: 20%;
+    position: absolute;
+   margin-top: 2%;
+}
+#back{
+    font-size: 1.5rem;
+    padding: 10px;
+    padding-top: 2px;
+    position: absolute;
+}
+.Add{
+    position: absolute;
+    padding-left: 4%;
+    z-index: -1;
+  
+}
+hr{
+    background-color: #EDEDED;
+}
+.cards{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 70%;
+   padding-left: 28rem;
+   
+}
+.card{
+  
+    width: 50%;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    padding-left: 15px;
+    height: 280px;
+    margin-top: 2.5rem;
+    opacity: 1  ;
+    background-color: #FFFFFF;
+}
+p{
+    color: #00A5EC;
+    font-size: 1.4rem;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.cut{
+    color: #C2C2C2;
+    text-decoration: line-through;
+   
+}
+form{
+   margin: 1em;
+   font-size: 1.2rem;
+}
+#check{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  
+    .heading{
+     padding-left: 1rem;
+   
+    }
+    .Add{
+        display: none;
+    }
+    .function{
+        padding-left: 45%;        
+    }
+    .cards{
+        flex-direction: column;
+        padding-left: 2rem;
+        width: 80%;
+    }
+    .card{
+        width: 100%;
+    }
+    .card1{
+        display: none;
+    }
+    .card2
+    {
+        display: none;
+    }
+    .card3
+    {
+        display: none;
+    }
+    #back-circle{
+        margin-left: 5%;
+        position: absolute;
+       margin-top: 7%;
+    }
+    
+    #back{
+        font-size: 1rem;
+        padding: 10px;
+        padding-top: 7px;
+        position: absolute;
+    }
+ }
